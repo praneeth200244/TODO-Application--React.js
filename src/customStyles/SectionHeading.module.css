@@ -1,0 +1,14 @@
+.sectionHeading {
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background-color: aqua;
+  width: 100%;
+  text-align: center;
+  border-radius: 1rem;
+  min-height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

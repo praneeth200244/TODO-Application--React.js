@@ -1,0 +1,27 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(215, 212, 208);
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.taskName,
+.taskDate {
+  font-size: 1.4rem;
+}
+
+.taskName {
+  width: 12rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.task button {
+  width: 5rem;
+}

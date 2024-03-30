@@ -1,0 +1,34 @@
+.addTasks {
+  margin: 1rem 20rem;
+}
+.takeInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.displayTasks {
+  margin: 1rem 4rem;
+  background-color: aliceblue;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.completedTasks,
+.pendingTasks {
+  border: 1px solid black;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: calc(50% - 0.5rem);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pendingTasks {
+  margin-right: 1rem;
+}
